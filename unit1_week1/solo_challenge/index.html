@@ -1,0 +1,118 @@
+<!DOCTYPE=HTML>
+<!---
+	PSUEUDO CODE HERE:
+
+	1. header; my name
+	2. header; navigation bar
+	   ... 3 boxes, floating
+	   ... each linked to each division
+	   ... when hovered change color
+	3. introduction
+	4. portrait
+	   ... link to the image
+	5. about me
+	   ... title and content.
+	6. contact
+	   ... title and content.
+	   ... unordered list.
+	   ... each linked to the webpage
+	7. blogs/works
+	   ... same as 6.
+	8. footer; back to the top
+	   ... link to the Home page
+-->
+
+
+<html>
+ <head>
+ 	<meta charset="utf-8">
+ 	<title>Yuzu Saijo self introduction page</title>
+ 	<link rel="stylesheet" type="text/css" href="stylesheet/styles.css" charset="utf-8"
+ 	 media="screen"/>
+ 	 <meta name="viewport"
+ 	 content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+ </head>
+ <body>
+ 	
+
+        <div id="name">
+ 		
+ 		   <b>Yuzu Saijo</b>
+ 		
+ 	    </div>
+ 	    <div class="wrapper">
+ 		
+ 			<ul class="navigation">
+ 				<li><a href="#about me">about me</a></li>
+ 				<li><a href="#contact">contact</a></li>
+ 				<li><a href="#blogs works">blogs/works</a></li>
+ 			</ul>
+ 		
+ 	    </div>
+ 	
+
+   
+    <section>
+    	<div id="intro">
+    	<p>I am a Computer Science major student at UC Berkeley. Currently I am learning how to code in Ruby on Rails in Dev Bootcamp.
+    	</p>
+        </div>
+        <div id="portrait">
+        	<img src="images/yuzu_photo.jpg" alt="my portrait"/>
+        </div>
+        <div id="about me">
+        	<h2 class="title">about me</h2>
+        	<h5 class="subtitle">education history</h5>
+        	  <ul class="history">	
+        	    <li>2012-2013: BA Liberal Arts: <b>the University of Tokyo</b></li>
+        	    <li>2013-2014: BA-exchange- Computer Science: <b>the University of California, Berkeley</b></li>
+        	  </ul>
+        	<h5 class="subtitle">working history</h5>
+        	  <ul class="history">
+        	    <li>2012-2013: English teacher: <b>cram school, Tetsuryokukai</b></li>
+        	    <li>2012: English and math teacher: <b>volunteer NPO, Teach for Japan</b></li>	
+        	  </ul>
+        	<h5 class="subtitle">activities history</h5>
+        	  <ul class="history">	
+        	  	 <li>2012-2013: PR and design: <b>Harvard College in Asia Program, Tokyo office</b></li>
+        	  	 <li>2012-2013: team leader: <b>TEDxTodai</b></li>
+        	  </ul>
+
+        	</p>
+        </div>
+        <div id="contact">
+        	<h2 class="title">contact</h2>
+        	<ul class="linklist">
+        		<li>Email <a href="mailto:yuzu0125@gmail.com">yuzu0125@gmail.com</a></li>
+        		<a href="https://www.facebook.com/yuzu.saijo"><li>Facebook</li></a>
+        		<a href="http://www.linkedin.com/pub/yuzu-saijo/60/b97/b16"><li>LinkedIn</li></a>
+        		<a href="https://twitter.com/rubberyuzu"><li>Twitter</li></a>
+        	</ul>
+        </div>
+        <div id="blogs works">
+        	<h2 class="title">blogs/works</h2>
+        	<ul class="linklist">
+        		<li><a href="http://rubberyuzu.wordpress.com/">blog(English)</a></li>
+        		<li><a href="https://medium.com/@rubberyuzu">blog(Japanese)</a></li>
+        	    <li><a href="https://github.com/rubberyuzu">GitHub</a></li>
+        	    <li><a href="https://www.behance.net/rubberyuzu">design portforio</a></li>
+        	    <li><a href="http://rubberyuzu.tumblr.com/">photography</a></li>
+        	</ul>
+
+
+        </div>
+    </section>
+
+    <footer>
+    	<h6 class="back"><a href="#name">back to the top</a></h6>
+    	<h6 class="credit">designed by Yuzu Saijo</h6>
+    </footer>
+    
+    
+
+
+ </body>
+
+
+</html>
